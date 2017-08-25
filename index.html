@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="foundation/css/foundation.css">
+    <link rel="stylesheet" href="foundation/css/app.css">
+  </head>
+  <body>
+  <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>What would Sharon Leon say?</h1>
+        </div>
+      </div>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-4 cell">
+          <img src="https://unsplash.it/200/300/?random" >
+        </div>
+
+        <div class="large-8 cell">
+          <h2>Anything I can do?</h2>
+            <form id="wwsld-textbox" data-abide novalidate>
+                <div class="row">
+                  <div class="small-12 columns">
+                      <label>Anything I can do?
+                        <input type="text">
+                      </label>
+                  </div>
+
+                  <div class="row">
+                    <fieldset class="large-6 columns">
+                      <button class="button" type="submit" value="Submit">Submit</button>
+                    </fieldset>
+                  </div>
+                </div>
+            </form>
+
+            <h2 class="wwsld-response hidden"></h2>
+            <a class="button reloadbtn" href="#">Ask Again</a>
+        </div>
+      </div>
+  </div>
+
+
+    <script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/vendor/what-input.js"></script>
+    <script src="foundation/js/vendor/foundation.js"></script>
+    <script src="foundation/js/app.js"></script>
+    <script src="wwslsay.js"></script>
+  </body>
+</html>
