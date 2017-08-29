@@ -4,47 +4,65 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>What would Sharon Leon Say?</title>
     <link rel="stylesheet" href="foundation/css/foundation.css">
     <link rel="stylesheet" href="foundation/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Bitter:400,400i,700|Josefin+Slab:300,400,400i,600,600i,700,700i|Merriweather:400,700,900|Prociono|Raleway" rel="stylesheet">
   </head>
   <body>
   <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-          <h1>What would Sharon Leon say?</h1>
+          <!-- <h1>What would Sharon Leon say?</h1> -->
+          <img src="wwss6.png">
         </div>
       </div>
 
       <div class="grid-x grid-padding-x">
-        <div class="large-4 cell">
-          <img src="https://unsplash.it/200/300/?random" >
-        </div>
 
-        <div class="large-8 cell">
-          <h2>Anything I can do?</h2>
+
+        <div class="large-12 cell">
+          <!-- <h2>Anything I can do?</h2> -->
             <form id="wwsld-textbox" data-abide novalidate>
                 <div class="row">
                   <div class="small-12 columns">
-                      <label>Anything I can do?
-                        <input type="text">
-                      </label>
+                        <input type="text" placeholder="Type your question here.">
                   </div>
 
                   <div class="row">
                     <fieldset class="large-6 columns">
-                      <button class="button" type="submit" value="Submit">Submit</button>
+                      <button class="button" type="submit" value="Submit">Ask Sharon</button>
                     </fieldset>
                   </div>
                 </div>
             </form>
-
-            <h2 class="wwsld-response hidden"></h2>
+          </div>
+          </div>
+            <div class="grid-x grid-padding-x response-box hidden">
+              <div class="large-8 cell ">
+            <h2 class="wwsld-response"></h2>
+            <div class="large-8 cell align-center">
             <a class="button reloadbtn" href="#">Ask Again</a>
+          </div>
+          </div>
+        <div class="large-4 cell">
+          <img src="Leon-Sharon.png" >
         </div>
       </div>
-  </div>
+      <footer>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <ul class="menu">
 
+                <li><a href="#">About this Site</a></li>
+                <li><a href="#">About Sharon</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </footer>
 
     <script src="foundation/js/vendor/jquery.js"></script>
     <script src="foundation/js/vendor/what-input.js"></script>

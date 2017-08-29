@@ -29,6 +29,7 @@ html {
   /* 3 */
   -webkit-text-size-adjust: 100%;
   /* 3 */ }
+  @import url('https://fonts.googleapis.com/css?family=Dosis:700,800|Mukta+Mahee:400,700,800|Open+Sans:400,700,800|Roboto:400,500,700,900');
 
 /* Sections
        ========================================================================== */
@@ -444,7 +445,8 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Bitter", Helvetica, Roboto, Arial, sans-serif;
+  letter-spacing: 2px;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -553,9 +555,10 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-style: normal;
+  font-family: "Bitter", Helvetica, Roboto, Arial, sans-serif;
+  font-style: italic;
   font-weight: normal;
+  letter-spacing: 2px;
   color: inherit;
   text-rendering: optimizeLegibility; }
   h1 small, .h1 small,

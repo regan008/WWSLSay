@@ -15,7 +15,7 @@ function appendquotes(lines) {
 $( "#wwsld-textbox" ).submit(function( event ) {
   console.log( "Handler for .submit() called." );
 
-  $.get('http://chnmdev.gmu.edu/fellows/sharonsays/WWSLSay.csv',function(data){
+  $.get('http://localhost:8000/WWSLSay.csv',function(data){
       var dataStr = new String(data);
       console.log(dataStr);
       var lines = dataStr.split('\n');
@@ -23,6 +23,8 @@ $( "#wwsld-textbox" ).submit(function( event ) {
       var randomItem = lines[Math.floor(Math.random()*lines.length)];
       console.log(randomItem);
       $(".wwsld-response").append(randomItem);
+      $(".reloadbtn").removeClass('hidden');
+      $(".response-box").removeClass('hidden');
   },dataType='text');
   event.preventDefault();
   $( "form" ).remove( "#wwsld-textbox" );
