@@ -1,6 +1,10 @@
 .hidden {
   display: none;
 }
+p {
+  color: white;
+  font-size: 1.5rem;
+}
 .button {
   font-size: 1.7rem;
   background-color: #FEB41C;
@@ -13,6 +17,12 @@
 margin-top: 200px;
 }
 .wwsld-response {
+  margin-top: 50px;
+}
+.menu-first-item {
+  padding-left: 0px !important;
+}
+.footer-nav {
   margin-top: 50px;
 }
 h1{
