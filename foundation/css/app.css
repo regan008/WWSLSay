@@ -49,6 +49,7 @@ h1,h2,h3 {
 }
 [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'] {
   height: 10rem;
+  font-size: 250%;
 }
 
 ::-webkit-input-placeholder {
