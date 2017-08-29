@@ -15,7 +15,7 @@ function appendquotes(lines) {
 $( "#wwsld-textbox" ).submit(function( event ) {
   console.log( "Handler for .submit() called." );
 
-  $.get('http://localhost:8000/WWSLSay.csv',function(data){
+  $.get('http://chnmdev.gmu.edu/fellows/sharonsays/WWSLSay.csv',function(data){
       var dataStr = new String(data);
       console.log(dataStr);
       var lines = dataStr.split('\n');
